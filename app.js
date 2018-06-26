@@ -103,7 +103,7 @@ function transformFirstAndLast(array) {
     return newObject;
   }
   
-  module.exports = transformFirstAndLast;
+ // module.exports = transformFirstAndLast;
 
 /*Escribe una función llamada listAllValues que devuelve un array de todos los valores del objeto de entrada.
 
@@ -202,7 +202,7 @@ function addFullNameProperty(obj) {
     return obj;
   }
   
-  module.exports = addFullNameProperty;
+  //module.exports = addFullNameProperty;
   
 
   

@@ -1,4 +1,4 @@
-/*Escribe una función llamada "addArrayProperty(obj, key, array)".
+/*1)Escribe una función llamada "addArrayProperty(obj, key, array)".
 
 Dado un objeto, una clave y un array, "addArrayProperty" establece una nueva propiedad sobre el objeto en la clave dada, con su valor establecido en el array dado.
 
@@ -16,6 +16,21 @@ function addArrayProperty(obj, key, arr) {
   }
   
   //module.exports = addArrayProperty
+
+  //2)Contador de propiedades
+  /*Dado un objeto como parámetro, contar la cantidad de propiedades que este contiene y retornarlo.
+
+Ejemplo:
+
+const output = objectPropertiesCounter({ 'name': 'John', 'lastname': 'Doe' });
+
+console.log(ouput); // -> 2*/
+  const objectPropertiesCounter = (obj) => {
+    let properties = Object.keys(obj);
+     return properties.length;
+   };
+   
+   //module.exports = objectPropertiesCounter;
 
 /*  Escribe una función llamada "removeStringValuesLongerThan".
 
